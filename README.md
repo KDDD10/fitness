@@ -131,7 +131,6 @@ The goal is to provide a reliable e-commerce experience that supports fitness en
 
 - **As a User:**
 
->>>>>>> 4c6caeaef36f89f67be65eb93667b037c3e7dd00
 1. As a user, I expect the website to be easy to navigate.
 2. As a user, I expect the website to be responsive on all devices.
 3. As a user, I want to be able to search for all items in the store.
