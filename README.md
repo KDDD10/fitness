@@ -12,7 +12,7 @@ The link to the live site is here: https://fitness-ed493.web.app/
 
 Fitness is designed to empower health-conscious individuals by offering a range of high-quality fitness products. From protein supplements to gym accessories, the platform ensures secure transactions, fast performance, and user-friendly navigation.
 
-The website's primary goal is to create a safe platform for a gym/fitness center that makes it simple for company owners to run their operations and for customers to buy exercise gear and subscriptions. To make the application safe, quick, and easy to use, it was created using an MVC architectureand contemporary technologies like Python3, Django, Bootstrap, HTML5, SCSS, CSS3, JavaScript, and PostgreSQL.
+The goal is to provide a reliable e-commerce experience that supports fitness enthusiasts in maintaining an active and healthy lifestyle.
 
 ---
 
@@ -23,23 +23,13 @@ The website's primary goal is to create a safe platform for a gym/fitness center
 - Build a fast and secure e-commerce platform for fitness products.
 - Enhance user experience with a clean and intuitive interface.
 - Offer seamless integration of payment and delivery systems.
-- Give users the option to register and access the application. Create an admin access panel to manage the company and the clients.
+- Give users the option to register and access the application. Create an admin access panel to manage the company and the clients.
 - Permit clients to buy fitness items and subscriptions.
 - Put in place a Stripe payment system so that clients may pay for their fitness goods and memberships.
 - Permit consumers to leave reviews for exercise gear. Create a blog to provide articles and advice about fitness.
 - Permit clients to write blog entries to share their achievements.
 - Create a contact form so that clients can get in touch with the company's owner.
 - Create a website that is responsive and easy to use.
-
-### **Business Goals**
-
-- Increase customer retention through personalized services.
-- Expand the product range as demand grows.
-- Maintain consistent performance to support scalability.
-- By offering a more customized experience, improving customer service.
-- Give clients top-notch instruction from the best teachers.
-- To make the program easier to use, provide an intuitive and user-friendly user interface.
-- Improve the online buying experience for clients to keep them coming back.
 
 ## **Strategies**
 
@@ -56,7 +46,20 @@ The website's primary goal is to create a safe platform for a gym/fitness center
 - Store user contact information in the database.
 - Use pytest, pytest-django, pytest-factoryboy, and pytest-html to test the application's backend.
 
----
+## **Diagrams Used in Development**
+
+### **1. Application Architecture Diagram**
+
+This diagram showcases the overall flow and structure of the application, illustrating interactions between the frontend, backend, database, and external services like Cloudinary and Firebase.
+the diagram was created using [draw.io](https://app.diagrams.net/)
+
+### **2. Database Schema**
+
+The database schema highlights the relationships between different entities, ensuring efficient data storage and retrieval.
+
+### **3. Deployment Workflow**
+
+This diagram represents the step-by-step deployment process, including frontend builds, Firebase hosting, and backend API setup.
 
 ## **Key Features**
 
@@ -83,6 +86,16 @@ The website's primary goal is to create a safe platform for a gym/fitness center
    - User-friendly cart and checkout process.
 
 ---
+
+### **Business Goals**
+
+- Increase customer retention through personalized services.
+- Expand the product range as demand grows.
+- Maintain consistent performance to support scalability.
+- By offering a more customized experience, improving customer service.
+- Give clients top-notch instruction from the best teachers.
+- To make the program easier to use, provide an intuitive and user-friendly user interface.
+- Improve the online buying experience for clients to keep them coming back.
 
 ## **User Stories**
 
@@ -171,7 +184,8 @@ To ensure the website ranks high on search engines and attracts organic traffic,
 
 ---
 
-By implementing these strategies, the website is optimized to rank higher in search engine results, drive organic traffic, and provide an excellent user experience.
+By implementing these strategies, the website is optimized to rank
+higher in search engine results, drive organic traffic, and provide an excellent user experience.
 
 ---
 
