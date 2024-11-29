@@ -46,32 +46,6 @@ The goal is to provide a reliable e-commerce experience that supports fitness en
 - Store user contact information in the database.
 - Use pytest, pytest-django, pytest-factoryboy, and pytest-html to test the application's backend.
 
-## **Diagrams Used in Development**
-
-### **1. Application Architecture Diagram**
-
-This diagram showcases the overall flow and structure of the application, illustrating interactions between the frontend, backend, database, and external services like Cloudinary and Firebase.
-the diagram was created using [draw.io](https://app.diagrams.net/)
-
-### **2. Database Schema**
-
-The database schema highlights the relationships between different entities, ensuring efficient data storage and retrieval.
-
-### **3. Deployment Workflow**
-
-This diagram represents the step-by-step deployment process, including frontend builds, Firebase hosting, and backend API setup.
-
-<<<<<<< HEAD
-## **Wireframes**
-
-Here are the following wireframes while designing, developing, and testing the application. 
-
-<details>
-<summary>Home Page Wireframe</summary>
-
-![Home]()
-
-
 ## **Key Features**
 
 1. **E-commerce Platform**
