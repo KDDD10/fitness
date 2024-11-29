@@ -12,7 +12,7 @@ The link to the live site is here: https://fitness-ed493.web.app/
 
 Fitness is designed to empower health-conscious individuals by offering a range of high-quality fitness products. From protein supplements to gym accessories, the platform ensures secure transactions, fast performance, and user-friendly navigation.
 
-The website's primary goal is to create a safe platform for a gym/fitness center that makes it simple for company owners to run their operations and for customers to buy exercise gear and subscriptions. To make the application safe, quick, and easy to use, it was created using an MVC architectureand contemporary technologies like Python3, Django, Bootstrap, HTML5, SCSS, CSS3, JavaScript, and PostgreSQL.
+The goal is to provide a reliable e-commerce experience that supports fitness enthusiasts in maintaining an active and healthy lifestyle.
 
 ---
 
@@ -23,23 +23,13 @@ The website's primary goal is to create a safe platform for a gym/fitness center
 - Build a fast and secure e-commerce platform for fitness products.
 - Enhance user experience with a clean and intuitive interface.
 - Offer seamless integration of payment and delivery systems.
-- Give users the option to register and access the application. Create an admin access panel to manage the company and the clients.
+- Give users the option to register and access the application. Create an admin access panel to manage the company and the clients.
 - Permit clients to buy fitness items and subscriptions.
 - Put in place a Stripe payment system so that clients may pay for their fitness goods and memberships.
 - Permit consumers to leave reviews for exercise gear. Create a blog to provide articles and advice about fitness.
 - Permit clients to write blog entries to share their achievements.
 - Create a contact form so that clients can get in touch with the company's owner.
 - Create a website that is responsive and easy to use.
-
-### **Business Goals**
-
-- Increase customer retention through personalized services.
-- Expand the product range as demand grows.
-- Maintain consistent performance to support scalability.
-- By offering a more customized experience, improving customer service.
-- Give clients top-notch instruction from the best teachers.
-- To make the program easier to use, provide an intuitive and user-friendly user interface.
-- Improve the online buying experience for clients to keep them coming back.
 
 ## **Strategies**
 
@@ -56,7 +46,20 @@ The website's primary goal is to create a safe platform for a gym/fitness center
 - Store user contact information in the database.
 - Use pytest, pytest-django, pytest-factoryboy, and pytest-html to test the application's backend.
 
----
+## **Diagrams Used in Development**
+
+### **1. Application Architecture Diagram**
+
+This diagram showcases the overall flow and structure of the application, illustrating interactions between the frontend, backend, database, and external services like Cloudinary and Firebase.
+the diagram was created using [draw.io](https://app.diagrams.net/)
+
+### **2. Database Schema**
+
+The database schema highlights the relationships between different entities, ensuring efficient data storage and retrieval.
+
+### **3. Deployment Workflow**
+
+This diagram represents the step-by-step deployment process, including frontend builds, Firebase hosting, and backend API setup.
 
 <<<<<<< HEAD
 ## **Wireframes**
@@ -94,6 +97,16 @@ Here are the following wireframes while designing, developing, and testing the a
    - User-friendly cart and checkout process.
 
 ---
+
+### **Business Goals**
+
+- Increase customer retention through personalized services.
+- Expand the product range as demand grows.
+- Maintain consistent performance to support scalability.
+- By offering a more customized experience, improving customer service.
+- Give clients top-notch instruction from the best teachers.
+- To make the program easier to use, provide an intuitive and user-friendly user interface.
+- Improve the online buying experience for clients to keep them coming back.
 
 ## **User Stories**
 
@@ -221,11 +234,53 @@ To ensure the website ranks high on search engines and attracts organic traffic,
 
 ---
 
-By implementing these strategies, the website is optimized to rank higher in search engine results, drive organic traffic, and provide an excellent user experience.
+By implementing these strategies, the website is optimized to rank
+higher in search engine results, drive organic traffic, and provide an excellent user experience.
+
+---
+---
+
+## **Wireframes**
+
+We have used the following wireframes while designing, developing, and testing the application.
+
+<details>
+<summary>**Home Page Wireframe**</summary>
+
+![Shop Page Wireframe](https://res.cloudinary.com/dcb1zsjuk/image/upload/v1732884283/WhatsApp_Image_2024-11-29_at_4.58.56_PM_qtpfy8.jpg)
+
+</details>
+
+<details>
+<summary>**Nutrition Wireframe**</summary>
+
+![Fitness Classes Page Wireframe](https://res.cloudinary.com/dcb1zsjuk/image/upload/v1732884283/WhatsApp_Image_2024-11-29_at_4.58.57_PM_flxbsw.jpg)
+
+</details>
+
+<details>
+<summary>**Exercise Wireframe**</summary>
+
+![Contact Us Page Wireframe](https://res.cloudinary.com/dcb1zsjuk/image/upload/v1732884283/WhatsApp_Image_2024-11-29_at_4.58.57_PM_2_zplygj.jpg)
+
+</details>
+<details>
+<summary>**Shop Page**</summary>
+
+![Product Page Wireframe](https://res.cloudinary.com/dcb1zsjuk/image/upload/v1732884283/WhatsApp_Image_2024-11-29_at_4.58.58_PM_phea9l.jpg)
+
+</details>
+<details>
+<summary>**Subscription Wireframe**</summary>
+
+![Home Page Wireframe (Mobile)](https://res.cloudinary.com/dcb1zsjuk/image/upload/v1732884283/WhatsApp_Image_2024-11-29_at_4.58.57_PM_3_ozj07q.jpg)
+
+</details>
+---
 
 ---
 
-## ** Bugs / Issues and solutions**
+## **Bugs / Issues and Solutions**
 
 ### **1. Exercise Plan Add to Cart Issue**
 
@@ -234,6 +289,8 @@ Initially, users could add multiple exercise plans to the cart, which was uninte
 
 **Solution:**  
 The `add_cart` function was updated to restrict users to one exercise plan at a time. Additionally, the `context.py` logic for `exercise_plans_dic` was modified to ensure this behavior.
+
+![Exercise Plan Add to Cart Issue](https://res.cloudinary.com/dcb1zsjuk/image/upload/v1732884846/Screenshot_2024-11-29_175343_wgondl.png)
 
 ---
 
@@ -250,10 +307,12 @@ The issue was due to the absence of a `noimage.png` placeholder in the media fol
 ### **3. User Sign-Up Error in AUTH_PASSWORD_VALIDATORS**
 
 **Issue:**  
-An error occurred during user registration due to splitting lines in `settings.py` using a backslash to avoid exceeding line length limits.
+An error occurred during user login due to splitting lines in `settings.py` using a backslash to avoid exceeding line length limits.
 
 **Solution:**  
 Switching from backslashes to string concatenation using triple quotes allowed the validators to remain readable and functional.
+
+![User Sign-In Error](https://res.cloudinary.com/dcb1zsjuk/image/upload/v1732884847/Screenshot_2024-11-29_175226_xuemwr.png)
 
 ---
 
@@ -275,15 +334,19 @@ A `payment_intent.succeeded` webhook test from Stripe returned a 500 error, whil
 **Solution:**  
 The issue was isolated to the `handle_payment_intent_succeeded` logic, specifically in referencing cart metadata. Tutor support confirmed the problem was isolated to testing and advised focusing on live functionality, which worked as expected.
 
+![Stripe Webhook Error](https://res.cloudinary.com/dcb1zsjuk/image/upload/v1732885497/Screenshot_2024-11-29_180443_bkyn3u.png)
+
 ---
 
-### **6. Contact Form Email Address Missing**
+### **6. Register Form Email Address Missing**
 
 **Issue:**  
 When users submitted a query through the Contact Us form, the store owner’s email received the query but did not include the user’s email address.
 
 **Solution:**  
 The user’s email was added to the subject line of the email, allowing the store owner to respond to queries effectively. This workaround was implemented due to Gmail's strict security policies.
+
+![Register Form Email Address Missing](https://res.cloudinary.com/dcb1zsjuk/image/upload/v1732885078/Screenshot_2024-11-29_175749_ln1med.png)
 
 ---
 
@@ -295,6 +358,8 @@ The cart total did not update after adding, deleting, or modifying items.
 **Solution:**  
 The root cause was missing `default_app_config` in `checkout/__init__.py`. Adding `default_app_config = 'checkout.apps.CheckoutConfig'` resolved the issue, ensuring totals updated dynamically.
 
+![Total Not Updating for Cart Operations](link-to-image)
+
 ---
 
 ### **8. HTTP 303 Error in Link Response**
@@ -304,6 +369,8 @@ An HTTP 303 error was returned when attempting to process certain API responses,
 
 **Solution:**  
 The error occurred due to an incorrect redirection handling mechanism. Updating the API request headers to include the correct `Content-Type` and explicitly handling the 303 redirect using `axios` for frontend requests resolved the issue. Additionally, the backend was updated to ensure proper `Location` headers were set for redirect responses.
+
+![HTTP 303 Error](https://res.cloudinary.com/dcb1zsjuk/image/upload/v1732885323/Screenshot_2024-11-29_180144_alncjz.png)
 
 ---
 
