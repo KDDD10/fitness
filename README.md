@@ -58,6 +58,7 @@ The website's primary goal is to create a safe platform for a gym/fitness center
 
 ---
 
+<<<<<<< HEAD
 ## **Wireframes**
 
 Here are the following wireframes while designing, developing, and testing the application. 
@@ -105,6 +106,45 @@ Here are the following wireframes while designing, developing, and testing the a
 
 - **As a User:**
 
+=======
+## **Key Features**
+
+1. **E-commerce Platform**
+
+   - **Wide Product Range:** Protein supplements, energy drinks, gym accessories, and more.
+   - **Dynamic Product Content:** Powered by Cloudinary for fast-loading, optimized images and videos.
+
+2. **Secure Payments**
+
+   - Integrated payment gateways ensure safe and smooth transactions.
+
+3. **User Experience**
+
+   - Mobile-first, responsive design using Tailwind CSS.
+   - Easy navigation with advanced search and filtering options.
+
+4. **Administrative Tools**
+
+   - Admin dashboard powered by Ant Design for managing products, orders, and users.
+
+5. **Customer Engagement**
+   - Product reviews to guide buyers.
+   - User-friendly cart and checkout process.
+
+---
+
+## **User Stories**
+
+- **As a store owner:**
+
+1. As a store owner, I want a simple responsive user friendly website.
+2. As a store owner, I want to add new products/services in the store.
+3. As a store owner, I want to update existing products/services in the store.
+4. As a store owner, I want to delete a product/service from the store.
+
+- **As a User:**
+
+>>>>>>> 4c6caeaef36f89f67be65eb93667b037c3e7dd00
 1. As a user, I expect the website to be easy to navigate.
 2. As a user, I expect the website to be responsive on all devices.
 3. As a user, I want to be able to search for all items in the store.
