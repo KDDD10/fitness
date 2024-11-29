@@ -31,6 +31,16 @@ The goal is to provide a reliable e-commerce experience that supports fitness en
 - Create a contact form so that clients can get in touch with the company's owner.
 - Create a website that is responsive and easy to use.
 
+### **Business Goals**
+
+- Increase customer retention through personalized services.
+- Expand the product range as demand grows.
+- Maintain consistent performance to support scalability.
+- By offering a more customized experience, improving customer service.
+- Give clients top-notch instruction from the best teachers.
+- To make the program easier to use, provide an intuitive and user-friendly user interface.
+- Improve the online buying experience for clients to keep them coming back.
+
 ## **Strategies**
 
 - Build a thorough and safe backend architecture using the MVC design pattern.
@@ -71,27 +81,6 @@ The goal is to provide a reliable e-commerce experience that supports fitness en
    - User-friendly cart and checkout process.
 
 ---
-
-### **Business Goals**
-
-- Increase customer retention through personalized services.
-- Expand the product range as demand grows.
-- Maintain consistent performance to support scalability.
-- By offering a more customized experience, improving customer service.
-- Give clients top-notch instruction from the best teachers.
-- To make the program easier to use, provide an intuitive and user-friendly user interface.
-- Improve the online buying experience for clients to keep them coming back.
-
-## **User Stories**
-
-- **As a store owner:**
-
-1. As a store owner, I want a simple responsive user friendly website.
-2. As a store owner, I want to add new products/services in the store.
-3. As a store owner, I want to update existing products/services in the store.
-4. As a store owner, I want to delete a product/service from the store.
-
-- **As a User:**
 
 =======
 ## **Key Features**
